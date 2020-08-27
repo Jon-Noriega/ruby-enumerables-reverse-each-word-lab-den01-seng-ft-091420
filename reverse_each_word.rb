@@ -5,4 +5,5 @@ reversed_array = []
 array.collect do |element|
   reversed_array << element.reverse
 end
+reversed_array.join(" ")
 end
