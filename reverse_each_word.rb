@@ -14,5 +14,5 @@ array = string.split
 array.map do |element|
   element.reverse
 end
-reversed_array.join(" ")
+array.join(" ")
 end
